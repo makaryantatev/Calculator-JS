@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="table2">
+            <div class="sun"> 
+                <a href="index.html">
+                    <i class='bx bx-sun' ></i>
+                </a>
+            </div>
+            <div class="display2">
+                <input id="input1" type="text" placeholder="0" readonly >
+                <br>
+                <input id="answer1" type="text" readonly>
+            </div>
+            <table>
+                <tr>
+                    <td> <button class="darkgrey" onclick="ac(' ')"> AC </button> </td>
+                    <td> <button class="darkgrey" onclick="getOperators('-')"> +\- </button> </td>
+                    <td> <button class="darkgrey" onclick="getOperators('%')"> % </button> </td>
+                    <td> <button class="orange" onclick="getOperators('÷')"> ÷ </button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="getNumber(7)"> 7 </button> </td>
+                    <td> <button onclick="getNumber(8)"> 8 </button> </td>
+                    <td> <button onclick="getNumber(9)"> 9 </button> </td>
+                    <td> <button class="lightorange" onclick="getOperators('*')"> * </button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="getNumber(4)"> 4 </button> </td>
+                    <td> <button onclick="getNumber(5)"> 5 </button> </td>
+                    <td> <button onclick="getNumber(6)"> 6 </button> </td>
+                    <td> <button class="lightorange" onclick="getOperators('-')"> - </button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="getNumber(1)"> 1 </button> </td>
+                    <td> <button onclick="getNumber(2)"> 2 </button> </td>
+                    <td> <button onclick="getNumber(3)"> 3 </button> </td>
+                    <td> <button class="lightorange" onclick="getOperators('+')"> + </button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="getNumber(0)"> 0 </button> </td>
+                    <td> <button onclick="getNumber('00')"> 00 </button> </td>
+                    <td> <button> . </button> </td>
+                    <td> <button class="lightorange" ondblclick="comparison()"> = </button> </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="dark.js"></script>
+</body>
+</html>

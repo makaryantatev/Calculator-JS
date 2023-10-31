@@ -1,0 +1,142 @@
+.maindiv{
+    display: flex;
+    justify-content: center;
+}
+
+.sun, .moon{
+    display: flex;
+    justify-content: start;
+}
+.bx-sun{
+    font-size: 25px;
+    color: #ececec;
+    cursor: pointer;
+}
+.bx-moon{
+    font-size: 25px;
+    color: #333;
+    cursor: pointer;
+}
+
+#input{
+    width: 95%;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#answer{
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#input1{
+    width: 95%;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#answer1{
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.table1{
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 320px;
+    height: 560px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.table1 table{
+    width: 100%;
+}
+
+
+.display1{
+    margin: 15px;
+    width: 92%;
+    height: 130px;
+}
+
+.table1 button, input{
+    margin: .5px;
+    width: 60px;
+    height: 60px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.table1 .orange{
+    background-color: #f09536;
+}
+.table1 .grey{
+    background-color: #969696;
+    color: white;
+}
+
+
+
+.table2{
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 320px;
+    height: 560px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 20px;
+}
+
+.table2  table{
+    width: 100%;
+}
+
+.display2{
+    margin: 15px;
+    width: 92%;
+    height: 130px;
+}
+
+.table2 button{
+    margin: .5px;
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.table2 .lightorange{
+    background-color: #f1a33c;
+    color: white;
+}
+.table2 .darkgrey{
+    background-color: #a5a5a5;
+    color: black;
+} 
+.table2 .orange{
+    background-color: #f1a33c;
+}
